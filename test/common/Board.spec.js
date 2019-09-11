@@ -12,7 +12,7 @@ describe("Board methods", function(){
     assert.equal(false, board.move('a4','a2'));
   });
 
-  it('test findKing method', function (){
+/*  it('test findKing method', function (){
     assert.equal('e1', board.findKing('white'));
     assert.equal('e8', board.findKing('black'));
   });
@@ -145,5 +145,5 @@ describe("Board methods", function(){
     board.move('g2','g4');
     assert.sameMembers(['e2','f3'], board.getMoves('d1'));
   });
-
+*/
 });
