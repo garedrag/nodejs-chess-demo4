@@ -8,7 +8,7 @@ deploy:
     secure: "$access_key_id"
   secret_access_key:
     secure: "$secret_access_key"
-  region: "eu-central-1b"
+  region: "eu-central-1"
   app: "mychess"
   env: "Mychess-env"
   bucket_name: "lv428chess"
