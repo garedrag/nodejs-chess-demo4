@@ -14,5 +14,4 @@ deploy:
   env: "Mychess-env"
   bucket_name: "lv428chess"
 after_deploy:  
-  - npm start
   - npm run client
