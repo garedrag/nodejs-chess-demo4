@@ -1,12 +1,12 @@
 {
   "systemLog": {
     "destination": "file",
-    "path": "home/ec2-user/test/test.log",
+    "path": "C:/Users/tkust/dbs/test/test.log",
     "logAppend": true
   },
   "storage": {
     "engine": "mmapv1",
-    "dbPath": "home/ec2-user/test",
+    "dbPath": "C:/Users/tkust/dbs/test",
     "journal": {
       "enabled": true
     }
