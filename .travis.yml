@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-  - "10.16"
-  - "8.16"
+  - "4.9"
+  - "6.12"
 deploy:
   provider: elasticbeanstalk
   skip_cleanup: true
