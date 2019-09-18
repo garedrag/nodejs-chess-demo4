@@ -1,4 +1,4 @@
-/*var assert = require("assert");
+var assert = require("assert");
 var request = require("request");
 var baseUrl = "http://localhost:8081/api/game";
 
@@ -63,4 +63,4 @@ describe("Game API Module", function () {
       });
     });
   });
-});*/
+});

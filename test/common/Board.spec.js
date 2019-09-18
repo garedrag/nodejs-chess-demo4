@@ -145,4 +145,5 @@ describe("Board methods", function(){
     board.move('g2','g4');
     assert.sameMembers(['e2','f3'], board.getMoves('d1'));
   });
+
 });
